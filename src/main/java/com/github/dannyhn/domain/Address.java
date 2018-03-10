@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Address {
+public class Address extends BaseDomain {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;

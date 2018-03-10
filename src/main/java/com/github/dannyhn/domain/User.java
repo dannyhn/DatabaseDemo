@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class User {
+public class User extends BaseDomain {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private long id;
@@ -19,5 +19,4 @@ public class User {
     private String name;
 
     private String email;
-
 }
