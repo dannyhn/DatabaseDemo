@@ -1,4 +1,4 @@
-package com.github.dannyhn.config;
+package com.github.dannyhn.demo.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

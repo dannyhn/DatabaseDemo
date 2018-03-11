@@ -1,12 +1,12 @@
-package com.github.dannyhn.interceptor;
+package com.github.dannyhn.demo.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import com.github.dannyhn.domain.HttpRequestHistory;
-import com.github.dannyhn.repository.HttpRequestHistoryRepository;
+import com.github.dannyhn.demo.domain.HttpRequestHistory;
+import com.github.dannyhn.demo.repository.HttpRequestHistoryRepository;
 
 public class CustomHttpInterceptor extends HandlerInterceptorAdapter {
 	

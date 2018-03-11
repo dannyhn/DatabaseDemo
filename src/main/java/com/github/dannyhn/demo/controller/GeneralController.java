@@ -1,4 +1,4 @@
-package com.github.dannyhn.controller;
+package com.github.dannyhn.demo.controller;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.github.dannyhn.domain.UserAddress;
-import com.github.dannyhn.repository.UserAddressRepository;
+import com.github.dannyhn.demo.domain.UserAddress;
+import com.github.dannyhn.demo.repository.UserAddressRepository;
 
 @RestController
 public class GeneralController {

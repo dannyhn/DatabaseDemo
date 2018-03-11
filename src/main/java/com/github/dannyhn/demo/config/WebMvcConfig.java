@@ -1,12 +1,12 @@
-package com.github.dannyhn.config;
+package com.github.dannyhn.demo.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import com.github.dannyhn.interceptor.CustomHttpInterceptor;
-import com.github.dannyhn.repository.HttpRequestHistoryRepository;
+import com.github.dannyhn.demo.interceptor.CustomHttpInterceptor;
+import com.github.dannyhn.demo.repository.HttpRequestHistoryRepository;
 
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {

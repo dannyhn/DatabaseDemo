@@ -1,4 +1,4 @@
-package com.github.dannyhn.service;
+package com.github.dannyhn.demo.service;
 
 import org.springframework.integration.annotation.ServiceActivator;
 import org.springframework.stereotype.Service;

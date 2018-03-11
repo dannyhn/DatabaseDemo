@@ -1,14 +1,14 @@
-package com.github.dannyhn;
+package com.github.dannyhn.demo;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.github.dannyhn.domain.Address;
-import com.github.dannyhn.domain.User;
-import com.github.dannyhn.repository.AddressRepository;
-import com.github.dannyhn.repository.UserRepository;
+import com.github.dannyhn.demo.domain.Address;
+import com.github.dannyhn.demo.domain.User;
+import com.github.dannyhn.demo.repository.AddressRepository;
+import com.github.dannyhn.demo.repository.UserRepository;
 
 @SpringBootApplication
 public class DatabaseDemoApplication {

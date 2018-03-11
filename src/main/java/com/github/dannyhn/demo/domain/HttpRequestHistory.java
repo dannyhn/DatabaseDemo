@@ -1,4 +1,4 @@
-package com.github.dannyhn.domain;
+package com.github.dannyhn.demo.domain;
 
 import java.util.Arrays;
 import java.util.HashMap;
